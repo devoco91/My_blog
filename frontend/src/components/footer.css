@@ -1,0 +1,20 @@
+.footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer span {
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 480px) {
+    .footer span {
+      font-size: 0.8rem;
+    }
+  }
+  

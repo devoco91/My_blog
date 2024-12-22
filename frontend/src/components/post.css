@@ -1,0 +1,54 @@
+/* Post detail page */
+.post-detail {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Responsive typography */
+  .post-detail h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .post-detail p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .post-detail {
+      padding: 10px;
+    }
+  
+    .post-detail h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .post-detail h1 {
+      font-size: 1.2rem;
+    }
+  
+    .post-detail p {
+      font-size: 0.9rem;
+    }
+  }
+  
+
+  .post-detail-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .post-detail-video {
+    width: 100%;
+    max-height: 500px;
+    margin-top: 20px;
+    border-radius: 8px;
+    object-fit: cover;
+  }

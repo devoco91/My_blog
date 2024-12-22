@@ -1,0 +1,12 @@
+/* Modal styles */
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-dialog {
+    max-width: 500px;
+    width: 90%;
+  }
+  
